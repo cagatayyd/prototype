@@ -1,0 +1,58 @@
+<%- include("partials/header") -%>
+    <h1 class="my-3 text-center">Kalite Kontrol</h1>
+    <h1 class="text-center">Veri Girişi</h1>
+    <form method="post" action="/kalitekontrolgiris">
+        <table class="container">
+            <thead>
+                <tr>
+                    <th><h1>Adı</h1></th>
+                    <th><h1>Sıcaklığı</h1></th>
+                    <th><h1>Yaşı</h1></th>
+                    <th><h1>Giriş tarihi - saati</h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" name="kalitekontrolAd" id=""></td>
+                    <td><input type="text" name="kalitekontrolC" id=""></td>
+                    <td><input type="text" name="kalitekontrolYas" id=""></td>
+                    <td><input type="datetime-local" name="kalitekontrolGel" id=""></td>
+                </tr>
+                
+                <tr>
+                    <td>Twitter</td>
+                    <td>7326</td>
+                    <td>10437</td>
+                    <td>00:51:22</td>
+                </tr>
+                <tr>
+                    <td>Amazon</td>
+                    <td>4162</td>
+                    <td>5327</td>
+                    <td>00:24:34</td>
+                </tr>
+                <tr>
+                    <td>LinkedIn</td>
+                    <td>3654</td>
+                    <td>2961</td>
+                    <td>00:12:10</td>
+                </tr>
+            <tr>
+                    <td>CodePen</td>
+                    <td>2002</td>
+                    <td>4135</td>
+                    <td>00:46:19</td>
+                </tr>
+            <tr>
+                    <td>GitHub</td>
+                    <td>4623</td>
+                    <td>3486</td>
+                    <td>00:31:52</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="text-center">
+            <button class="btn-primary btn mt-5" type="submit" name="button"> Submit </button>
+        </div>
+    </form>
+<%- include("partials/footer") -%>

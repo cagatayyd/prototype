@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+.form-control{
+  border-radius: 40px;
+  border-color: #1E1D6F;
+  border-width: 2px;
+  font-size: 20px !important;
+}
+.form-control:focus{
+  outline: none !important;
+}
+.labels{
+  float: left !important;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="username"] {
+  margin-bottom: -1px;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+}
+.btn{
+  background-color: #6DD1F1;
+  border-radius: 60px;
+  height: 50px;
+  width: 110px;
+  transition: 500ms;
+  border: none;
+}
+.btn:hover{
+  background-color: #6DD1F1;
+  filter: brightness(75%);
+  transition: 500ms;
+}
+.box{
+  padding:20px;
+  border-radius: 50px;
+  width: 450px;
+  box-shadow: 4px 8px 2px 8px #1E1D6F, 8px 10px 4px 12px #6DD1F1;
+}
+
+
